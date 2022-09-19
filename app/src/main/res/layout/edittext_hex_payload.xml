@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="100"
+    android:textAlignment="center"
+    android:hint="Lugar(00-09),latitud.longitud. Ej: 00,-11.34,75.9383"
+    android:digits="0123456789,.-"
+    android:importantForAutofill="no"
+    android:inputType="text" />
